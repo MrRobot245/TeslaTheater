@@ -17,17 +17,17 @@ function goFullScreen() {
     goFullScreenYoutube();
   } else {
     show("overlayfullscreen");
-    setTimeout(() => { goFullScreenYoutube() }, 5000);
+    setTimeout(() => { goFullScreenYoutube() }, 3000);
   }
 }
 
 function goFullScreenYoutube() {
     location.href='https://www.youtube.com/redirect?q=https://theater.mrrobotcloud.duckdns.org';
-    setTimeout(() => { hide("overlayfullscreen") }, 5000);
+    setTimeout(() => { hide("overlayfullscreen") }, 3000);
 }
 function showLoader() {
   show("loader");
-  setTimeout(() => { hide("loader") }, 5000);
+  setTimeout(() => { hide("loader") }, 3000);
 }
 function showOverlay() {
   show("overlay");
