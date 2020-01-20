@@ -22,7 +22,7 @@ function goFullScreen() {
 }
 
 function goFullScreenYoutube() {
-    location.href='https://www.youtube.com/redirect?q=http://teslatheater.com/';
+    location.href='https://www.youtube.com/redirect?q=https://theater.mrrobotcloud.duckdns.org';
     setTimeout(() => { hide("overlayfullscreen") }, 5000);
 }
 function showLoader() {
